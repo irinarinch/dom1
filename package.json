@@ -2,7 +2,9 @@
   "name": "ajs",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {  
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
     "lint": "eslint .",
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js"
